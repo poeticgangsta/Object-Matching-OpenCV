@@ -3,6 +3,7 @@ import numpy as np
 
 capture = cv.VideoCapture(0)
 object = cv.imread('meh.png', 0)  # the aforementioned object 
+#meh.png same i feel you
 
 width, height = object.shape[::-1]
 
